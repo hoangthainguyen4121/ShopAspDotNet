@@ -16,9 +16,11 @@ namespace ShopAspDotNet.Model.Model
         public int ID { get; set; }
 
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
         [Required]
+        [MaxLength(256)]
         public string URL { get; set; }
 
         public int? DisplayOrder { get; set; }
@@ -30,6 +32,7 @@ namespace ShopAspDotNet.Model.Model
         public virtual MenuGroups MenuGroup { get; set; }
 
         [Required]
+        [MaxLength(10)]
         public string Target { get; set;}
 
         [Required]

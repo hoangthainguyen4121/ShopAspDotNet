@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShopAspDotNet.Common
+namespace ShopAspDotNet.Model.Model
 {
-    class Class1
+    class Order
     {
     }
 }

@@ -11,7 +11,7 @@ using System.Xml.Linq;
 namespace ShopAspDotNet.Model.Model
 {
     [Table("Products")]
-    public class Product:Auditable
+    public class Product : Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -25,7 +25,7 @@ namespace ShopAspDotNet.Model.Model
         public XElement MoreImages { get; set; }
         public decimal Price { get; set; }
         public decimal? PromotionPrice { get; set; }
-        public int? Warrenty{ get; set; }
+        public int? Warrenty { get; set; }
         public string Description { get; set; }
         public string Content { get; set; }
 
